@@ -1,1 +1,9 @@
-!important
+#header-heading {
+	color: white;
+	background: black;
+}
+
+section h2 {
+	color: white;
+	background: black;
+}
