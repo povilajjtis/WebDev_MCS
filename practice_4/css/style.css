@@ -1,0 +1,94 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P|Roboto+Slab&display=swap');
+
+
+.header-container {
+	width: 1440px;
+	height: 200px;
+	background-color: #fca46a;
+	font-family: 'Press Start 2P';
+	font-size: 55px;
+	line-height: 180px;
+	text-align: left;
+
+}
+#header-text {
+	color: #0032fc;
+    margin-left: 20px;
+
+}
+
+.photo-container {
+	width: 1440px;
+	height: 1080px;
+	background-image: url(../img/photo.jpg);
+	background-size: cover;
+	
+
+}
+.links-container {
+	width: 1440px;
+	height: 100px;
+	background-color: #fca46a;
+	font-family: 'Press Start 2P';
+	line-height: 100px;
+	font-size: 20px;
+	
+	font-stretch: condensed;
+	text-align: center;
+
+}
+
+.links-container a {
+	text-decoration: none;
+	color: #0032fc;
+	line-height: 29px;
+	
+}
+
+
+.main-text-container {
+	width: 1280px;
+	height: 637px;
+
+
+}
+#main-header {
+      font-family: 'Press Start 2P';
+      font-size: 50px;
+      font-weight: lighter;
+      line-height: 85px;
+      margin-left: 20px;
+
+}
+#main-text {
+	font-family: 'Roboto Slab' ;
+	font-size: 50px;
+	font-weight: bold;
+	line-height: 80px;
+    margin-left: 50px;
+
+}
+
+.footer-container {
+	width: 1440px;
+    height: 200px;
+    background-color: #fca46a;
+    background-image: url(../img/logo.png);
+    background-repeat: no-repeat;
+    background-position: 50px;
+    background-size: 205px, 46px;
+	
+}
+
+
+
+
+.footer-text h2 {
+	font-family: 'Roboto Slab';
+	font-size: 45px;
+	text-align: right;
+	line-height: 180px;
+	margin-right: 50px; 
+
+}
