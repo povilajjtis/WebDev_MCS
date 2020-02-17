@@ -88,3 +88,6 @@
     margin-left: 550px;
     
 }
+footer img, footer span { 
+	vertical-align: middle;
+}
