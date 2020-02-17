@@ -75,34 +75,15 @@
 
  }
 
-.logo-container {
-	display: inline;
-}
-
-.logo-container img {
-	margin-left: 50px;
-	padding-top: 70px;
-}
-
-.footer-container {
-    height: 200px;
-    background-color: #fca46a;
-
- }
-
-
 #footer-logo {
-
 	margin-left: 50px;
 	padding-top: 70px;
 }
 
-.footer-text  {
-	
+.footer-text {
 	font-family: 'Roboto Slab';
 	font-size: 45px;
     padding-top: 70px;
     margin-right: 50px;
     margin-left: 550px;
-
 }
