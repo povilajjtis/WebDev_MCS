@@ -84,18 +84,25 @@
 	padding-top: 70px;
 }
 
-.footer-text {
-	display: inline;
-	margin-left: 550px;
+.footer-container {
+    height: 200px;
+    background-color: #fca46a;
+
+ }
+
+
+#footer-logo {
+
+	margin-left: 50px;
+	padding-top: 70px;
 }
 
-.footer-text h2 {
-	display: inline-block;
+.footer-text  {
+	
 	font-family: 'Roboto Slab';
 	font-size: 45px;
-	text-align: right;
-	margin-right: 50px;
-    margin-bottom: 50px;
-    padding-bottom: 50px;
+    padding-top: 70px;
+    margin-right: 50px;
+    margin-left: 550px;
 
 }
