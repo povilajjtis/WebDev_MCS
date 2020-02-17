@@ -77,13 +77,14 @@
 
 #footer-logo {
 	margin-left: 50px;
-	padding-top: 70px;
+	
 }
 
 .footer-text {
 	font-family: 'Roboto Slab';
 	font-size: 45px;
-    padding-top: 70px;
+    line-height: 200px;
     margin-right: 50px;
     margin-left: 550px;
+    
 }
