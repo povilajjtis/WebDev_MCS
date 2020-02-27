@@ -1,0 +1,122 @@
+@import url(reset.css);
+
+
+
+.page {
+	width: 1440px;
+
+}
+
+.header-container {
+	height: 60px;
+	background-color: #fe1a19;
+	position: relative;
+	top: 0px;
+	text-align: left;
+	line-height: 60px;
+	font-family: 'Helvetica';
+	font-size: 20px;
+
+}
+.header-container h1 {
+	color: white;
+	margin-left: 20px;
+}
+
+.content div {
+	display: inline-block;
+	width: 400px;
+	height: 800px;
+	border: 5px solid #e5e000;
+	border-radius: 30px;
+	box-sizing: border-box;
+
+}
+
+
+.content div h2 {
+	font-family: 'Helvetica';
+	font-size: 20px;
+	line-height: 23px; 
+	margin-left: 33px;
+	margin-top: 33px;
+
+}
+
+.content div h3 {
+
+	font-family: 'Times New Roman';
+	font-style: normal;
+	font-size: 20px;
+	margin-left: 33px;
+	line-height: 50px;
+
+	
+
+}
+
+.content div p {
+
+	font-family: 'Times New Roman';
+	font-style: normal;
+	font-size: 20px;
+	line-height: 23px;
+    margin-left: 33px;
+}
+
+.content {
+
+	position: relative;
+}
+
+.container-one {
+	position: relative;
+	top: 50px;
+	left: 70px;
+	bottom: 50px;
+
+
+
+}
+
+.container-two {
+
+	position: relative;
+	top: 50px;
+	margin-left: 116px;
+	bottom: 50px;
+	
+
+
+
+}
+
+.container-three {
+
+	position: relative;
+	top: 50px;
+	left: 50px;
+	bottom: 50px;
+	right: 70px;
+
+}
+
+.footer-container {
+
+	width: 1440px;
+	height: 60px;
+	background-color: #fe1a19;
+	position: absolute;
+	bottom: 0px;
+	
+
+}
+
+
+.footer-text {
+	font-family: Helvetica;
+    font-size: 20px;
+    line-height: 60px;
+    color: white;
+    margin-left: 20px;
+}
