@@ -71,7 +71,7 @@
 
 
 .paragraph {
-margin-bottom: 30px;
+    margin-bottom: 30px;
 
 }
 
@@ -90,9 +90,11 @@ margin-bottom: 30px;
 	font-family: 'Roboto Slab';
 	font-size: 45px;
     line-height: 200px;
-    margin-left: 610px;
+    margin-left: 600px;
    
 }
+
+
 
 footer img, footer span { 
 	vertical-align: middle;
