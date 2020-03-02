@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Press+Start+2P|Roboto+Slab&display=swap');
 
 .page {
-	width: 1440px;
+	width: 100%;
 }
 
 
@@ -69,6 +69,12 @@
 
 }
 
+
+.paragraph {
+margin-bottom: 30px;
+
+}
+
 .footer-container {
     height: 200px;
     background-color: #fca46a;
@@ -84,10 +90,10 @@
 	font-family: 'Roboto Slab';
 	font-size: 45px;
     line-height: 200px;
-    margin-right: 50px;
-    margin-left: 550px;
-    
+    margin-left: 600px;
+   
 }
+
 footer img, footer span { 
 	vertical-align: middle;
 }
