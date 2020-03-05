@@ -25,6 +25,7 @@
 	height: 1080px;
 	background-image: url(../img/photo.jpg);
 	background-size: cover;
+	background-attachment: fixed;
 	
 
 }
@@ -78,6 +79,10 @@
 .footer-container {
     height: 200px;
     background-color: #fca46a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
 
  }
 
@@ -87,14 +92,12 @@
 }
 
 .footer-text {
+
 	font-family: 'Roboto Slab';
 	font-size: 45px;
     line-height: 200px;
-    margin-left: 35%;
+    margin-right: 50px; 
 
  }
 
 
-footer img, footer span { 
-	vertical-align: middle;
-}
