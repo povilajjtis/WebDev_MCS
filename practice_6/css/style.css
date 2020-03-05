@@ -18,7 +18,7 @@
 
 }
 
-.header-container h1,li {
+.header-container li {
 	display: inline;
 
 }
@@ -35,10 +35,27 @@
 	margin-right: 50px;
 }
 
-.image-container img {
+.image-container  {
 	height: 950px;
 	width: 100%;
 	margin-top: 140px;
+	background-image: url(../img/evian_origins_logo.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+  }
+
+  .image-container h1 {
+  	font-family: 'Roboto';
+  	font-size: 100px;
+    line-height: 115px;
+    color: #E50043;
+
+
+    
   }
 
  .text {
@@ -55,24 +72,41 @@
     border-radius: 20px;
     text-align: center;
     font-family: 'Montserrat';
-    font-size: 25px;
+    font-size: 23px;
     line-height: 29px;
-    padding: 10px;
+    letter-spacing: 0.05em;
     position: absolute;
     margin-top: 150px;
-   
+    padding: 24px;
+    
+       
  }
 
-.icons-container {
-	display: flex;
-	justify-content: center;
-	margin-top: 580px;
+.text-container h2  {
+	text-align: left;
+	margin-bottom: 3px;
 
 }
 
-.icons-container div {
-	margin: auto;
+.text-container p {
+	text-align: left;
+}
+
+.icons {
+    margin-top: 580px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 	text-align: center;
+}
+
+
+.icons-container div {
+
+	text-align: center;
+	display: inline-block;
+	width: 281px;
+    height: 863px;
 }
 
 .icons-container p {
@@ -81,7 +115,10 @@
     line-height: 29px;
 
 }
-
+.icon-two {
+	margin-left: 100px;
+	margin-right: 100px;
+}
 
 .description {
 	display: flex;
@@ -97,17 +134,24 @@
     margin-top: 256px;
     font-family: 'Montserrat';
     font-size: 25px;
-    line-height: 45px;
-    padding: 25px;
-    text-align: center;
+    line-height: 29px;
+    padding: 30px;
+    text-align: left;
+    letter-spacing: 0.05em;
 
 
 }
 
 .description-container img {
 	float: left;
+	margin-right: 80px;
 }
 
+.description-container p {
+	
+	margin-top: 10px;
+
+}
 
 .footer-container {
 
