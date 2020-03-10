@@ -75,7 +75,7 @@
 
 
  .text-container {
-
+    margin-top: 150px;
     width: 1040px;
     border: 3px solid #F8BFC7;
     box-sizing: border-box;
@@ -85,7 +85,7 @@
     line-height: 29px;
     letter-spacing: 0.05em;
     padding: 24px;
-    
+
     
        
  }
@@ -102,6 +102,7 @@
 }
 
 .icons-container {
+	margin-top: 150px;
 	width: 1040px;
 	display: flex;
 
@@ -125,7 +126,10 @@
 
 
 .description {
+
+    margin-top: 150px;
     width: 1040px;
+    margin-bottom: 150px;
 	
 
 
