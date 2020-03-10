@@ -36,53 +36,62 @@
 }
 
 .image-container  {
-	height: 950px;
+
 	width: 100%;
+	height: 950px;
 	margin-top: 140px;
 	background-image: url(../img/evian_origins_logo.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	display: flex;
 	align-items: center;
-	text-align: center;
 	justify-content: center;
+	background-position: center;
   }
+
 
   .image-container h1 {
   	font-family: 'Roboto';
   	font-size: 100px;
     line-height: 115px;
     color: #E50043;
-
-
-    
+   
   }
 
- .text {
- 	display: flex;
- 	justify-content: center;
- 	
- } 
+.main-container {
+
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	flex-wrap: nowrap;
+	align-items: center;
+	
+
+	
+
+}
+
+
+
  .text-container {
 
-  	width: 1040px;
-    height: 280px;
+    width: 1040px;
     border: 3px solid #F8BFC7;
     box-sizing: border-box;
     border-radius: 20px;
-    text-align: center;
     font-family: 'Montserrat';
     font-size: 23px;
     line-height: 29px;
     letter-spacing: 0.05em;
-    position: absolute;
-    margin-top: 150px;
     padding: 24px;
+    
     
        
  }
 
 .text-container h2  {
+
 	text-align: left;
 	margin-bottom: 3px;
 
@@ -92,12 +101,10 @@
 	text-align: left;
 }
 
-.icons {
-    margin-top: 580px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-	text-align: center;
+.icons-container {
+	width: 1040px;
+	display: flex;
+
 }
 
 
@@ -105,33 +112,30 @@
 
 	text-align: center;
 	display: inline-block;
-	width: 281px;
-    height: 863px;
+	
 }
 
 .icons-container p {
+
     font-family: 'Montserrat';
     font-size: 25px;
     line-height: 29px;
 
 }
-.icon-two {
-	margin-left: 100px;
-	margin-right: 100px;
-}
+
 
 .description {
-	display: flex;
-	justify-content: center;
+    width: 1040px;
+	
+
+
 }
 .description-container {
 
-    width: 1040px;
     height: 280px;
     border: 3px solid #F8BFC7;
     box-sizing: border-box;
     border-radius: 20px;
-    margin-top: 256px;
     font-family: 'Montserrat';
     font-size: 25px;
     line-height: 29px;
@@ -163,7 +167,7 @@
 	background-color: #F8BFC7;
 	display: flex;
 	align-items: center;
-	margin-top: 150px;
+	
 
 
 }
