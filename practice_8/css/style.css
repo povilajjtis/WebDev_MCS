@@ -1,0 +1,115 @@
+@import url(reset.css);
+
+.body {
+	width: 100vw;
+	
+	
+
+}	
+
+.header-container {
+	height: 160px;
+	background-color: black;
+	color: white;
+	font-size: 5em;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.main-section {
+	min-height: 400px;
+	width: 80vw;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	padding-bottom: 50px;
+	padding-top: 50px;
+	
+
+
+
+}
+.image-container-one {
+	background-image: url(../img/Quavo.jpg);
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 100%;
+
+}
+.image-container-two {
+	background-image: url(../img/Offset.jpg);
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 100%;
+	
+}
+.image-container-three {
+	background-image: url(../img/Takeoff.jpg);
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 100%;
+	
+}
+
+.content-container h2 {
+	font-size: 3em;
+	line-height: 50px;
+}
+.content-container p {
+	font-size: 2em;
+}
+.content-container {
+
+    width: calc((100% - 100px)/3);
+	background-color: black;
+	color: white;
+	text-align: center;
+	border: 1px solid violet;
+    box-sizing: border-box;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer-container {
+
+	height: 160px;
+	background-color: black;
+	color: white;
+	font-size: 5em;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
