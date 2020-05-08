@@ -18,9 +18,14 @@
 
 }
 
+.main {
+	background-color: black;
+}
+
 .main-section {
 	min-height: 400px;
 	width: 80vw;
+	background-color: black;
 	margin: auto;
 	display: flex;
 	justify-content: space-between;
@@ -71,35 +76,6 @@
     box-sizing: border-box;
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
