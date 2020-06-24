@@ -112,7 +112,7 @@
 }
 
 
-@media screen and (min-width: 667px) {
+@media screen and (min-width: 1440px) {
 
 
 .header-nav {
@@ -123,6 +123,7 @@
 	align-items: center;
 }
 .header-nav h1 {
+	
 	font-family: Helvetica;
 	font-size: 50px;
 	line-height: 57px;
@@ -132,22 +133,19 @@
 }
 
 .main {
-   width: calc((100% - 200px)/4);
-   margin: auto;
+   
    display: flex;
-   justify-content: space-around;
-   align-items: center;
+   justify-content: center;
    padding-bottom: 220px;
    padding-top: 220px;
 }
 
 .main-section div {
-	width: 600px;
+
+	max-width: 600px;
     height: 300px;
     display: flex;
     align-items: center;
-    border: 5px solid black;
-    box-sizing: border-box;
     margin-top: 20px;
     margin-right: 20px;
 
@@ -155,12 +153,11 @@
 }
 
 .after-section div {
-	width: 600px;
+
+	max-width: 600px;
     height: 300px;
     display: flex;
     align-items: center;
-    border: 5px solid black;
-    box-sizing: border-box;
     margin-top: 20px;
 
 
