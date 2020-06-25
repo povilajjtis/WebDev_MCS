@@ -33,7 +33,7 @@
 
 }
 .main-section div {
-	
+
 	width: 330px;
     height: 165px;
     display: flex;  
@@ -134,7 +134,7 @@
 
 .main {
 
-   max-width: 1200px;
+   max-width: 1240px;
    margin: auto;
    display: flex;
    flex-wrap: wrap;
@@ -151,6 +151,7 @@
     height: 300px;
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     border: 5px solid black;
     box-sizing: border-box;
     margin-top: 20px;
