@@ -1,0 +1,123 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+html { 
+	font-size: 10px
+	
+ }
+
+
+
+.logo-container {
+	width: 28.7rem;
+	height: 8.2rem;
+	background-color: red;
+	font-family: Arial;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 6rem;
+    line-height: 6.9rem;
+    letter-spacing: -0.05em;
+    color: white;
+    text-align: center;
+    margin-bottom: 3.8rem;
+
+}
+
+#current_date_time_block {
+
+	width: 27rem;
+	height: 3rem;
+	font-family: 'Space Mono';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 2rem;
+	line-height: 3rem;
+	font-feature-settings: 'calt' off, 'liga' off;
+	color: black;
+	text-align: center;
+	display: inline;
+
+}
+
+.time span {
+
+	font-family: 'Space Mono';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 2rem;
+	line-height: 3rem;
+	font-feature-settings: 'calt' off, 'liga' off;
+	color: white;
+	text-align: center;
+	margin-left: 2px;
+
+}
+
+.header {
+	height: 33.8rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+
+
+.body {
+	background-color: white;
+	
+}
+
+
+.news-section {
+	display: flex;
+	justify-content: flex-start;
+}
+
+.main-section span {
+
+	font-family: 'Space Mono';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 2rem;
+	line-height: 3rem;
+	font-feature-settings: 'calt' off, 'liga' off;
+	
+}
+
+.news-section a {
+	text-decoration: none;
+	color: black;
+}
+
+.news-section a:hover {
+	background-color: red;
+}
+
+.footer-container {
+	margin-top: 7.9rem;
+	text-align: center;
+
+}
+
+.footer-container a {
+	margin-right: 1.5rem;
+}
+
+@media screen and (max-width: 1200px) {
+ 
+
+	.media-select {
+
+		height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+		
+		
+	}
+
+	.header {
+		height: 18rem;
+	}
+}
