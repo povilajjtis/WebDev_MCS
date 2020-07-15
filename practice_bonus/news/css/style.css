@@ -47,14 +47,14 @@ html {
 	font-size: 2rem;
 	line-height: 3rem;
 	font-feature-settings: 'calt' off, 'liga' off;
-	color: white;
+	color: black;
 	text-align: center;
 	margin-left: 2px;
 
 }
 
 .header {
-	height: 33.8rem;
+	height: 30rem;
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-end;
@@ -67,14 +67,17 @@ html {
 	background-color: white;
 	
 }
-
-
-.news-section {
-	display: flex;
-	justify-content: flex-start;
+.main {
+	min-height: calc(95vh - (30rem + 3rem))
 }
 
-.main-section span {
+
+.footer-section {
+	text-align: center;
+	
+}
+
+.footer-section span {
 
 	font-family: 'Space Mono';
 	font-style: normal;
@@ -82,27 +85,28 @@ html {
 	font-size: 2rem;
 	line-height: 3rem;
 	font-feature-settings: 'calt' off, 'liga' off;
+	text-decoration: none;
+	color: black;
+	margin-right: 1rem;
+
+
 	
 }
 
-.news-section a {
+.footer-section span  a {
 	text-decoration: none;
 	color: black;
+
+	
 }
 
-.news-section a:hover {
+.footer-section a:hover {
 	background-color: red;
+	color: white;
 }
 
-.footer-container {
-	margin-top: 7.9rem;
-	text-align: center;
 
-}
 
-.footer-container a {
-	margin-right: 1.5rem;
-}
 
 @media screen and (max-width: 1200px) {
  
