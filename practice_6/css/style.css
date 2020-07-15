@@ -30,7 +30,7 @@ html {
 }
 
 #header-content {
-	margin-left: 50px;
+	margin-left: 5rem;
 }
 
 #header-links a {
@@ -38,14 +38,14 @@ html {
 	color: #E50043;
 }
 #header-links {
-	margin-right: 50px;
+	margin-right: 5rem;
 }
 
 .image-container  {
 
 	width: 100%;
-	height: 950px;
-	margin-top: 140px;
+	height: 95rem;
+	margin-top: 14rem;
 	background-image: url(../img/evian_origins_logo.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -59,7 +59,7 @@ html {
   .image-container h1 {
   	font-family: 'Roboto';
   	font-size: 10rem;
-    line-height: 115px;
+    line-height: 11.5rem;
     color: #E50043;
    
   }
@@ -81,16 +81,16 @@ html {
 
 
  .text-container {
-    margin-top: 150px;
-    width: 1040px;
+    margin-top: 15rem;
+    width: 104rem;
     border: 3px solid #F8BFC7;
     box-sizing: border-box;
-    border-radius: 20px;
+    border-radius: 2rem;
     font-family: 'Montserrat';
     font-size: 2.3rem;
-    line-height: 29px;
+    line-height: 2.9rem;
     letter-spacing: 0.05em;
-    padding: 24px;
+    padding: 2.4rem;
 
     
        
@@ -99,7 +99,7 @@ html {
 .text-container h2  {
 
 	text-align: left;
-	margin-bottom: 3px;
+	margin-bottom: 0.3rem;
 
 }
 
@@ -108,8 +108,8 @@ html {
 }
 
 .icons-container {
-	margin-top: 150px;
-	width: 1040px;
+	margin-top: 15rem;
+	width: 104rem;
 	display: flex;
 
 }
@@ -126,30 +126,30 @@ html {
 
     font-family: 'Montserrat';
     font-size: 2.5rem;
-    line-height: 29px;
+    line-height: 2.9rem;
 
 }
 
 
 .description {
 
-    margin-top: 150px;
-    width: 1040px;
-    margin-bottom: 150px;
+    margin-top: 15rem;
+    width: 104rem;
+    margin-bottom: 15rem;
 	
 
 
 }
 .description-container {
 
-    height: 280px;
+    height: 28rem;
     border: 3px solid #F8BFC7;
     box-sizing: border-box;
-    border-radius: 20px;
+    border-radius: 2rem;
     font-family: 'Montserrat';
     font-size: 2.5rem;
-    line-height: 29px;
-    padding: 30px;
+    line-height: 2.9rem;
+    padding: 3rem;
     text-align: left;
     letter-spacing: 0.05em;
 
@@ -158,22 +158,22 @@ html {
 
 .description-container img {
 	float: left;
-	margin-right: 80px;
+	margin-right: 8rem;
 }
 
 .description-container p {
 	
-	margin-top: 10px;
+	margin-top: 1rem;
 
 }
 
 .footer-container {
 
-	height: 140px;
+	height: 14rem;
 	width: 100%;
 	font-family: 'Roboto';
 	font-size: 5rem;
-	line-height: 57px;
+	line-height: 5.7rem;
 	background-color: #F8BFC7;
 	display: flex;
 	align-items: center;
@@ -184,5 +184,5 @@ html {
 
 .footer-text {
 	color: #FFFFFF;
-	margin-left: 50px;
+	margin-left: 5rem;
 }

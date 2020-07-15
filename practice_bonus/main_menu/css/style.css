@@ -1,0 +1,112 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+html { 
+	font-size: 10px
+	
+ }
+
+.logo-container {
+	width: 287px;
+	height: 82px;
+	background-color: red;
+	font-family: Arial;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 6rem;
+    line-height: 6.9rem;
+    letter-spacing: -0.05em;
+    color: white;
+    text-align: center;
+    margin-bottom: 38px;
+
+}
+
+#current_date_time_block {
+
+	width: 270px;
+	height: 30px;
+	font-family: 'Space Mono';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 2rem;
+	line-height: 3rem;
+	font-feature-settings: 'calt' off, 'liga' off;
+	color: white;
+	text-align: center;
+	display: inline;
+
+}
+
+.time span {
+
+	font-family: 'Space Mono';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 2rem;
+	line-height: 3rem;
+	font-feature-settings: 'calt' off, 'liga' off;
+	color: white;
+	text-align: center;
+	margin-left: 2px;
+
+}
+
+.header {
+	height: 338px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+
+
+.body {
+	background-image: url(../img/background.gif);
+	background-color: black;
+	background-size: cover;
+}
+
+.main-section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 91px;
+}
+.news-section {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+
+.main-section span {
+
+	font-family: 'Space Mono';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 2rem;
+	line-height: 3rem;
+	font-feature-settings: 'calt' off, 'liga' off;
+	
+}
+
+.news-section a {
+	text-decoration: none;
+	color: white;
+}
+
+.news-section a:hover {
+	background-color: red;
+}
+
+.footer-container {
+	margin-top: 77.99px;
+	text-align: center;
+
+}
+
+.footer-container a {
+	margin-right: 15px;
+}
+
