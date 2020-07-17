@@ -153,20 +153,20 @@ html {
 
 
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 400px) {
  
-
-	.media-select {
-
-		height: 100vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-		
-		
+	
+	.main {
+		flex-direction: column;
 	}
 
 	.header {
 		height: 18rem;
+	}
+
+	.text-container {
+		
+		overflow-y: scroll;
+
 	}
 }
