@@ -68,7 +68,25 @@ html {
 	
 }
 .main {
-	min-height: calc(95vh - (30rem + 3rem))
+	width: 60vw;
+	font-family: 'Space Mono';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 2rem;
+	line-height: 3rem;
+	font-feature-settings: 'calt' off, 'liga' off;
+	min-height: calc(95vh - (30rem + 3rem));
+	display: flex;
+	flex-wrap: nowrap;
+	align-content:center;
+	margin: auto;
+}
+.text-container {
+	width: 260px;
+	height: 390px;
+	overflow: auto;
+	margin-left: 20px;
+}
 }
 
 
