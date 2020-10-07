@@ -1,0 +1,35 @@
+@import url(reset.css);
+
+
+
+html {
+  font-size: 1.3rem;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+body {
+  background-color: #F2F2F2;
+}
+.logo h1 {
+  color: #324759;
+  text-decoration: none;
+  font-size: 2.5rem;
+}
+.menu ul {
+  font-size: 1.2rem;
+  display: flex;
+  
+}
+.menu__item {
+  margin-right: 1rem;
+}
+.page a {
+	text-decoration: none;
+}
+.page a:hover {
+  text-decoration: underline;
+  color: #657A8C;
+}
+.page ul {
+	list-style: none;
+}
+
