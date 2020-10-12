@@ -1,0 +1,42 @@
+
+
+
+
+html {
+  font-size: 1.3rem;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+body {
+  background-color: #F2F2F2;
+}
+.logo h1 {
+  color: #324759;
+  text-decoration: none;
+  font-size: 2.5rem;
+}
+.menu ul {
+  padding: 0;
+  margin-left: 0;
+  font-size: 1.2rem;
+  display: flex;
+  
+}
+.menu li{
+
+  list-style-type: none;
+  margin-right: 1rem;
+}
+
+.content h2 {
+  text-align: center;
+
+}
+.content ul {
+  list-style: none;
+}
+
+.map {
+  margin-top: 2rem;
+}
+
+

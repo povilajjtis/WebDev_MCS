@@ -1,0 +1,38 @@
+.page {
+  display: grid;
+  margin: 0 5rem;
+  grid-template-columns: 2fr 6fr 2fr 2fr;
+  grid-template-rows: 5rem;
+  grid-gap: 2rem 1rem;
+  grid-template-areas: 
+  "logo logo menu menu"
+  "special_offer content content map"
+  "footer footer footer footer";
+}
+
+.logo {
+  grid-area: logo;
+  align-self: center;
+}
+.menu {
+  grid-area: menu;
+  
+  place-self: center end;
+}
+.special_offer {
+  grid-area: special_offer;
+  align-self: center;
+}
+.content {
+  grid-area: content;
+  justify-self: center; 
+}
+
+.map {
+  grid-area: map;
+  place-self: top end;
+}
+.footer {
+  grid-area: footer;
+}
+

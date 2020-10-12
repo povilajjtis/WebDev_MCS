@@ -1,4 +1,4 @@
-@import url(reset.css);
+
 
 
 
@@ -15,11 +15,15 @@ body {
   font-size: 2.5rem;
 }
 .menu ul {
+  padding: 0;
+  margin-left: 0;
   font-size: 1.2rem;
   display: flex;
   
 }
-.menu__item {
+.menu li{
+
+  list-style-type: none;
   margin-right: 1rem;
 }
 .page a {
@@ -33,3 +37,32 @@ body {
 	list-style: none;
 }
 
+.posts {
+  border: 1px solid #657A8C;
+  border-radius: 1rem;
+  padding: 1rem;		
+}
+.posts li {
+
+	list-style: none;
+	margin-top: 0.5rem;
+
+}
+
+.posts a {
+  color: #8C764D;
+}
+
+.posts a:hover {
+  color: #BFB26F;
+}
+
+.information h2 {
+  font-size: 1.8rem;
+  margin-top: 0;
+}
+
+.information p {
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
