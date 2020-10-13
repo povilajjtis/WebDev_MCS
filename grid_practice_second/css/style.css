@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Mono&display=swap');
+@import url(reset.css);
+
+
+html {
+  font-size: 1.3rem;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto Mono', monospace;
+}
+
+
+
+.header {
+  background: linear-gradient(#F564D1, transparent);
+  width: 100vw;
+  height: 3.5rem;
+  color: #5FF540;
+  display: flex;
+  align-items: center;
+  
+}
+.header h2 {
+  margin-left: 1rem;
+}
+body h2 {
+  font-family: "Roboto Mono"; 
+}
+body p {
+  font-family: "Open Sans";
+}
+.photo img {
+  width: 300px;
+  border: dotted 3px #F564D1; 
+  border-radius: 50%;
+}
+.photo a {
+   text-decoration: none;
+   color: #F564D1;
+}
+.photo a:hover {
+     color: #5FF540;
+}
+
+
+.photo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.photo h1 {
+  color: #3391F5;
+  margin-top: 1rem;
+}
+.photo p {
+  color: #3391F5;
+}
+.main {
+  display: flex;
+  align-items: center;
+
+}
+.main h2 {
+    color: #3391F5;
+    font-size: 1.5rem;
+    
+
+}
+.main p {
+    color: #3391F5;
+    font-size: 1.5rem;
+
+}
+
+
+.video {
+  width: 100%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0.2;
+  left: 50%;
+  z-index: -2;
+  position: fixed;
+  overflow: hidden;
+}
+
+
+
+
+
+.content {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.links a {
+  text-decoration: none;
+  color: #F564D1;
+  font-size: 1.5rem;
+}
+.links a:hover {
+  color: #5FF540;
+
+}
+.footer {
+  width: 100vw;
+  height: 3.5rem;
+  position: fixed;
+  bottom: 0;
+  color: #5FF540;
+  bottom: 0rem;
+  background: linear-gradient(0deg, #F564D1, transparent);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.footer h2 {
+  margin-left: 1rem;
+}
+
+.footer img {
+  margin-right: 1rem;
+}
